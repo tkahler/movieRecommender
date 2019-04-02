@@ -84,7 +84,7 @@ def recommend(title):
     print("<title>Recommendations</title>")
     print("</head>")
     print("<body>")
-    if similarity:
+    if similarity is not None:
         indx = indices[indices == fullTitle].index[0]
         scores = pd.Series(similarity[indx]).sort_values(ascending = False)
         for i in range(8):
