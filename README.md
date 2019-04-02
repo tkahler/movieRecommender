@@ -7,6 +7,6 @@ User can input a movie into a form and list a movies similar to the entered movi
 
 Currently any movie can be entered and found through the omdb (open movies database) and will be compared to a database of IMDB's top 250 movies. 
 
-#Recommendation Algorithm: 
-
+Recommendation Algorithm: 
+Using the genre, actors, directors and keywords from the plot, a bag of words vector is created, then the a cosine similarity matrix is made between the movie entered and the movies within the database. The top ranked movies are selected and displayed.
 
