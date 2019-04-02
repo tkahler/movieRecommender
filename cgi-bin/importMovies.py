@@ -91,7 +91,7 @@ def recommend(title):
             print('<p>' + indices[scores.index[i+1]] + '</p>')
 
     else:
-        print('<p>' + title + "not found </p>")
+        print('<p>' + title + " not found go back to enter another movie</p>")
     print("</body>")
     print("</html>")
 
